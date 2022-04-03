@@ -1,7 +1,7 @@
 services:
   postgres:
     build: ./postgres
-    container_name: postgres
+    container_name: algalog-postgres
     restart: always
     logging:
       driver: "json-file"
